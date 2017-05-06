@@ -1,0 +1,75 @@
+/*===navbar===*/
+.navbar-custom {
+	background: #2F2F2F;
+}
+.navbar-custom .navbar-nav li.active a, .navbar-custom .navbar-nav li.active a:active, .navbar-custom .navbar-nav li.active a:focus, .navbar-custom .navbar-nav li.active a:hover {
+	background: #06B547;
+}
+
+.navbar-default .nav>li>a:focus:hover,.navbar-default .nav>li>a:hover{
+	background: #1353a4;
+	color: #fff;
+}
+
+/*===header section===*/
+
+header {
+	background: #1353a4;
+}
+
+/*===about section===*/
+
+section.success {
+	background: #1353a4;
+	opacity: 0.9;
+}
+
+/*===portfolio section===*/
+
+section.portfolio {
+	background: #06B547;
+}
+.portfolio-h2 {
+	color: #fff;	
+}
+.margin {
+	margin: 100px 0;
+}
+
+/*===divder===*/
+
+hr.star-light::after, hr.star-primary::after {
+	content: none;
+}
+hr.star-light-inverse::after, hr.star-primary::after {
+	background: #333;
+}
+
+/*===buttons===*/
+
+.btn-success {
+	float: right;
+	background: #06B547;
+	border: none;
+}
+.btn-success:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+	background: #1353a4;
+}
+.btn-social {
+	border:  none;
+}
+
+/*===services section===*/
+
+.text-primary {
+	color: #fff;
+}
+.text-muted {
+	color: #fff;
+}
+
+/*===footer===*/
+
+footer.footer-below {
+	background: #2F2F2F;
+}
